@@ -25,6 +25,7 @@ const LoginPage = () => {
         return (
           <Form>
             <FormikControl control="input" name="email" label="Email" />
+            <FormikControl control="textarea" name="textarea" label="Des" />
             <FormikControl
               control="input"
               type="password"
